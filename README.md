@@ -76,7 +76,7 @@ cd ARTEX
 - **①すべてDocker**：Postgresのパスワードを入力（Enterでランダム生成）→ `.env`を自動作成 → `docker compose up -d`。
 - **②ローカル実行**：データベースを選択（既存DBに接続 / DockerでDBを起動）→ `config.json`を生成 → `go`でフロントエンドを内蔵した単一バイナリをビルド → 起動。
 
-インストール後、**http://localhost:8787**を開きます（初回は`/setup`で管理者パスワードを設定）。
+インストール後、**[http://localhost:8787](http://localhost:8787)**を開きます（初回は`/setup`で管理者パスワードを設定）。
 
 ### 方法2：Docker Compose（手動）
 
